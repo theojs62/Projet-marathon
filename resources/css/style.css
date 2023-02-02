@@ -1,0 +1,380 @@
+body {
+    font-family: 'aleron';
+    background-color: antiquewhite;
+}
+
+/* header */
+
+.pre-header{
+    background-color: #6C6363;
+    width: auto;
+    display: flex;
+}
+
+.container{
+    display: flex;
+    margin-left: 18%;
+}
+
+h1{
+    color: #FF9933;
+}
+
+.container a {
+    padding-top: 2rem;
+    justify-content: space-around;
+    margin-left:4rem;
+    text-decoration: none;
+    color: white;
+}
+
+.container a:hover{
+    color: #FF9933;
+}
+
+.bannier{
+    padding: 7rem;
+    font-size: 15px;
+    background-repeat: no-repeat;
+}
+
+.bannier h2{
+    background-color: antiquewhite;
+    padding-left: 1%;
+    padding-top:2% ;
+    padding-bottom: 2%;
+    margin-left:13%;
+    margin-right: 8%;
+}
+
+/* contenue */
+.page{
+    background:#6C6363;
+    text-align: center;
+    left: 20%;
+    padding-bottom:4% ;
+    margin-top: -2%;
+}
+
+.page h2{
+    padding-top: 4%;
+    padding-bottom: 2%;
+    color: white;
+}
+
+.genre{
+    display: flex;
+    margin: 0 10%;
+}
+
+.genre-item{
+    width: 50%;
+    margin-left: 3%;
+    margin-right: 7%;
+
+}
+
+.sfpr-txt{
+    padding: 100px 80px 100px 80px;
+    font-size: 1.5rem;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.sfpr-img{
+    background-size: cover;
+    background-position: center;
+
+}
+
+.genre-inverse{
+    flex-direction: row-reverse;
+}
+
+/* footer */
+
+.deco{
+    border-bottom:solid 0.5rem #FF9933 ;
+    border-top:solid 0.5rem #FF9933 ;
+
+}
+
+.ft{
+    display: flex;
+    padding-bottom: 2%;
+}
+
+.mentions{
+    margin: auto;
+    margin-top: 2%;
+}
+
+.mail{
+    margin-top: 2%;
+}
+
+.suivi{
+    margin: auto;
+    padding-bottom: 3%;
+}
+
+/* Hall */
+
+.hall{
+    text-align: center;
+}
+
+.hall-logo img{
+    margin-top: 5rem;
+    width :15%;
+    text-align: center;
+}
+
+.hall-titre{
+    font-size: 120%;
+}
+
+.hall a{
+    background-color: #6C6363;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.hall a:hover{
+    color : #FF9933;
+}
+
+/*erreur*/
+
+#error h1{
+    padding-top: 10rem;
+    color: #6C6363;
+    font-size: 5rem;
+}
+
+#error h2{
+    margin-top: -2rem;
+    color: #FF9933;
+}
+
+#error{
+    height: 100vh;
+    text-align: center;
+}
+
+/*login*/
+.logtotal{
+    margin-top: 12%;
+    margin-left: 35%;
+
+}
+
+.Logtitre h1{
+    color: #FF9933;
+    margin-bottom: 5%;
+}
+
+.Logdescrip{
+    display: flex;
+}
+
+.mailco{
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.mdp{
+    margin-bottom: 5%;
+}
+
+
+/*register*/
+
+.regdescrip{
+    display: flex;
+}
+
+.crecos{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.crecos div{
+    margin-bottom: 2%;
+}
+
+
+
+/*sallesf */
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none; width: 30%;}
+.mySlides img {vertical-align: middle; margin-left: 70%;}
+
+.salle-fond{
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 80px);
+}
+
+.salle-fond image{
+    margin-top: -5%;
+
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    background-color: #717171;
+    font-weight: bold;
+    font-size: 18px;
+
+    border-radius: 0 3px 3px 0;
+}
+
+.pts{
+    margin-top: 1%;
+}
+
+.but-on{
+    margin-top: 3%;
+    text-align: center;
+}
+
+.but-on a{
+    background-color: #6C6363;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+}
+
+/*Formulaire*/
+
+.container2 {
+    max-width: 1300px;
+    background: antiquewhite  !important;
+    margin: 0 auto;
+    padding: 0rem 1rem;
+}
+
+.div-form {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 2rem auto;
+}
+
+.demande_ajout {
+    margin: 1rem;
+    display: flex !important;
+    align-items: center;
+    width: fit-content;
+
+}
+
+.zone_text{
+    border: 1px solid #FF9933;
+    background: white !important;
+    border-radius: 17px;
+    padding: 0.4rem;
+    display: flex;
+    margin-right: 17px;
+    position: relative;
+    box-shadow: inset 0 1px 2px #cacaca;
+    margin-top: 1%;
+}
+/* Contact */
+.contact {
+    border-radius: 10px;
+    margin: 1rem auto !important;
+    padding: 2rem 10rem !important;
+
+}
+
+#submitButton {
+    margin-top: 0.5rem;
+}
+
+.button{
+    background: #6C6363   !important;
+    color: white !important;
+    border-radius: 15px;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: 200ms;
+}

@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 1024px;
+    margin: 0 auto;
+    min-height: 50rem;
+}
+
+.welcome {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 4rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    font-size: 5rem;
+    height: 30vh;
+}
+
+.illustration {
+    display: flex;
+    justify-content: center;
+}
+
+.illustration .photo {
+    display: block;
+    width: 100px;
+}
+
+.illustration .oeuvre {
+    display: block;
+    height: 40vh;
+}
